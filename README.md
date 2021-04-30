@@ -4,6 +4,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Pruebas con fxLayout + Angular Material
 
+## Recursos
+
+Layout demos
+```
+https://tburleson-layouts-demos.firebaseapp.com/#/docs
+```
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
