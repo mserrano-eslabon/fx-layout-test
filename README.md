@@ -1,6 +1,8 @@
-# FxLayoutTest
+# FxLayout Tests
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.9.
+
+Pruebas con fxLayout + Angular Material
 
 ## Development server
 
