@@ -26,7 +26,7 @@ const ELEMENT_DATA2: PeriodicElement[] = [
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  
+  _fechaVigencia = new Date();
   displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
   dataSource = ELEMENT_DATA;
   dataSource2 = ELEMENT_DATA2;

@@ -38,6 +38,7 @@ import { CdkTableModule } from '@angular/cdk/table';
 
 
 import { AppComponent } from './app.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -74,7 +75,7 @@ import { AppComponent } from './app.component';
     MatTableModule,
     MatTabsModule,
     MatToolbarModule,
-    MatTooltipModule,
+    MatTooltipModule, FormsModule ,
     CdkTableModule, BrowserModule, BrowserAnimationsModule, FlexLayoutModule, MatFormFieldModule
   ],
   providers: [],

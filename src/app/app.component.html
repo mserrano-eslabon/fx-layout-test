@@ -1,5 +1,5 @@
 <div fxLayout="column" fxLayoutAlign="start">
-  <!-- TEST BORRAME -->
+
   <div class="about-content" fxLayout="column" fxFlex="100">
 
     <div class="profile-box info-box general borde-tenue" fxLayout="column" style="box-shadow: none;">
@@ -41,9 +41,16 @@
 
                 <div fxFlex="100">
                   <div fxFlex="25">
-                    <mat-form-field fxFlex="100" appearance="outline" [floatLabel]="'always'">
-                      <mat-label>Fecha Movimiento</mat-label>
-                      <input matInput readonly value="2021-04-30">
+
+                    <mat-form-field fxFlex="100" appearance='outline' [floatLabel]="'always'">
+                      <mat-label> Fecha de movimiento
+                      </mat-label>
+                      <input matInput readonly [matDatepicker]="pickerVigencia" [ngModel]="_fechaVigencia"
+                        #fechaVigenciaInput id="fechaVigenciaInput" autocomplete="off" placeholder="-" dateFormatRestriction>
+                      <mat-datepicker-toggle matSuffix [for]="pickerVigencia" [disabled]="true">
+                      </mat-datepicker-toggle>
+                      <mat-datepicker #pickerVigencia>
+                      </mat-datepicker>
                     </mat-form-field>
 
                   </div>
@@ -248,5 +255,4 @@
       </div>
     </div>
   </div>
-  <!-- TEST BORRAME -->
 </div>
